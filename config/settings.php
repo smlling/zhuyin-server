@@ -7,7 +7,7 @@
 	// 附件域名
 	$attach_host = 'https://xx.xx.com/';
 	//读入敏感词列表
-	$banwords_file = file_get_contents(dirname(__FILE__) . '\pub_banned_words.txt');
+	$banwords_file = file_get_contents(dirname(__FILE__) . '/pub_banned_words.txt');
 	// 敏感词列表
 	$banwords = explode("\n",$banwords_file);
 	$upload = [

@@ -6,7 +6,7 @@ use think\console\Command;
 use think\console\Input;
 use think\console\Output;
 use \think\Db;
-use app\admin\model\Admin;
+use app\api\model\Admin;
 
 class InitSuperAdmin extends Command
 {
