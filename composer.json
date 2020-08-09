@@ -1,0 +1,38 @@
+{
+    "name": "zhuyin-server",
+    "description": "主音社区服务端",
+    "type": "project",
+    "keywords": [
+        "zhuyin"
+    ],
+    "homepage": "http://github.com/smlling/zhuyin-server",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "smlling",
+            "email": "smlling@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "topthink/framework": "5.1.*",
+        "phpmailer/phpmailer": "6.1.4",
+        "alibabacloud/sms": "^1.8",
+        "topthink/think-captcha": "2.0.*",
+        "topthink/think-image": "^1.0",
+        "lustre/php-dfa-sensitive": "^1.4",
+        "php-ffmpeg/php-ffmpeg": "^0.14.0",
+        "firebase/php-jwt": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
