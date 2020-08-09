@@ -12,7 +12,7 @@
     > #安装依赖
     > composer install
     > #初始化超级管理员账户admin/zhuyin_admin
-    > php think initSuperAdmin
+    > php think initsuperadmin
     > ```
 4. 按照常规web服务器搭建流程将<font color="red">public目录</font>映射为根目录
 
